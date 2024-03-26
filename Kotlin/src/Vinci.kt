@@ -9,9 +9,5 @@ fun prixTotal(type: String, carburant: String, km: Int) {
     var pC: Double = if (carburant == "Essence") 1.93 else if (carburant == "Diesel") 1.89 else 0.0
 
     var pTotal: Double = pT + pC * km
-
-    fun main() {
-        prixTotal("Citadine", "Essence", 5)
-    }
 }
 

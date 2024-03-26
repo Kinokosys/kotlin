@@ -22,10 +22,4 @@ fun filter () {
     println(filterPlanete)
 }
 
-fun main () {
-    elements()
-    indexTerre()
-    filter()
-}
-
 
